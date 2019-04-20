@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Document</title>
+    <script src="../mojGit/java.js"></script>
+
 </head>
 <body>
     <header>
@@ -45,16 +47,18 @@
     </div>
     <div class="contact">
         <h2>Contact</h2>
-        <form>
+        <form action="drugi.html" method="get" onSubmit="return provera(this)">
             <label for="ime">Ime:</label>
-            <input type="text">
+            <input name="ime"type="text">
             <label for="email">Email*:</label>
-            <input type="text">
+            <input name="email"type="text">
             <label for="poruka">Poruka*:</label>
-            <input type="text">
+            <input  name="poruka" type="text">
+            <button type="submit" name="posalji" >Posalji</button>
         </form>
         <img src="images/contactus.png">
-        <button>Posalji</button>
+     
+       
     </div>
     <footer>  COPYRIGHT: &copy FED:KURS 2019 </footer>
     
