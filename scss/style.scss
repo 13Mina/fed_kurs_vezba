@@ -91,3 +91,49 @@ text-align:center;
         }
     }
 }
+
+.contact{
+    width: 70%;
+    margin:0 auto;
+    text-align: center;
+
+    h2{
+        border-bottom: 1px solid orangered;
+        padding:10px;
+    }
+    form{
+        float:left;
+        width: 50%;
+        padding-top:40px;
+        color:orangered;
+        
+     label{
+        float: left;
+        clear: both;
+        
+     }
+     input{
+         float: right;
+         clear: both;
+         border:1px solid orangered;
+     }
+    }
+    img{
+        float: right;
+        width: 50%;
+    }
+    button{
+        background-color: orangered;
+        color:white;
+        float: right;
+        width: 10%;
+        margin-top:10px;
+    }
+}
+footer{
+    background-color:blue;
+    color:white;
+    clear:both;
+    text-align: center;
+   
+}
